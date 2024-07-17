@@ -1,0 +1,160 @@
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+body {
+    /* background-color: rgb(190, 19, 19); */
+    background: url('./login-bg-1.svg')
+    no-repeat;
+    /* background-position: center; */
+  }
+
+  .logo {
+    size: 33px;
+  }
+  .Auth-form-container {
+    background: url('./Logo.svg') no-repeat;
+    background-position: 50% 5%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98vw;
+    height: 100vh;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-bottom: 60px;    
+  }
+
+.head-line{
+  color: white;
+  padding-top: 133px;
+  padding-bottom: 35px;
+}
+  
+  .Auth-form {
+    width: 420px;
+    box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+    padding-top: 54px;
+    padding-bottom: 46px;
+    border-radius: 8px;
+    background-color: white;
+  }
+  
+  .Auth-form-content {
+    padding-left: 12%;
+    padding-right: 12%;
+    text-align: justify;
+  }
+  
+  .Auth-form-title {
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 24px;
+    color: rgb(34, 34, 34);
+    font-weight: 400;
+  }
+  
+  label {
+    font-size: 14px;
+    /* font-weight: 600; */
+    color: rgb(34, 34, 34);
+  }
+  .icon {
+    position: fixed;
+    right: 40%;
+    top: 68%;
+  }
+
+  /* Media query for screens with max-width 768px */
+  @media (max-width: 768px) {
+      
+    .logo {
+      size: 5px;
+    }
+    .head-line{
+      color: white;
+      padding-top: 133px;
+      padding-bottom: 35px;
+    }
+    .Auth-form-container {
+      background: url('./Logo.svg') no-repeat;
+      background-position: 50% 5%;
+     
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 98vw;
+      height: 100vh;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      padding-bottom: 60px;    
+    }
+  .Auth-form {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-color: transparent;
+    box-shadow: none;
+  } 
+}
+  /* @media only screen and (max-width: 600px) {
+    body {
+      /* background: url('./login-bg-1.svg') no-repeat;
+      background: url('./Oval.svg') no-repeat;
+      padding: 50px;
+    }
+  
+    .Auth-form-container {
+      width: 100vw;
+      /* height: auto; 
+      padding: 30px;
+    }
+  
+     .Auth-form {
+      width: 100%;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      background-color: transparent;
+      box-shadow: none;
+    } 
+  
+    .Auth-form-content {
+      padding-left: 7px;
+      padding-right: 5px;
+    }
+  
+    .head-line {
+      padding-top: 22px;
+      padding-bottom: 20px;
+      font-size: 18px;
+    }
+  
+    .icon {
+      right: 10%;
+      top: 60%;
+    }
+  } */
+
+/* .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f8f9fa;
+}
+
+.login-form {
+    width: 100%;
+    max-width: 400px;
+    padding: 15px;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.text-center {
+    margin-bottom: 15px;
+} */
